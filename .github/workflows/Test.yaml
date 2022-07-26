@@ -1,4 +1,4 @@
-name: android_tvbox
+name: android_BearTV
 
 on:
   workflow_dispatch:
@@ -27,6 +27,6 @@ jobs:
       - name: Upload APK
         uses: actions/upload-artifact@v2
         with:
-          name: my-tvbox-apk
+          name: my-BearTV-apk
           path: ./**/*.apk
 
