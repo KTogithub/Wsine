@@ -1,4 +1,4 @@
-name: android_Test
+name: android_tbos
 
 on:
   workflow_dispatch:
