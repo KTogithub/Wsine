@@ -1,4 +1,4 @@
-name: android_BearTV
+name: android_Test
 
 on:
   workflow_dispatch:
@@ -27,6 +27,6 @@ jobs:
       - name: Upload APK
         uses: actions/upload-artifact@v2
         with:
-          name: my-BearTV-apk
+          name: my-Test-apk
           path: ./**/*.apk
 
